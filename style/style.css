@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: image-set("biblioteca.png");
+    font-style: oblique;
+    width: 100%;
+    min-height: 150vh;
+    }
+
+.titulo{
+        background-color: rgba(0, 0, 0, 0.4);
+        position:absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+}
+
+.barras{
+    background-color: rgba(0, 0, 0, 0.4);
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+    width: 500px;
+    font-size: larger;
+    
+}
+
+.button a{
+                
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 15px;
+    width: 80%;
+    border-radius: 15px ;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    cursor: pointer;
+   
+    
+}
+
+.button a:hover{
+    background-color: rgb(71, 28, 0);
+    padding: 15px;
+    cursor:pointer;
+
+}
+
+input{
+    width: 500px;
+   height:  28px;
+   border-radius: 8px;
+}
+
+ #sinopse{
+    width: 500px;
+    height: 100px;
+
+ }
